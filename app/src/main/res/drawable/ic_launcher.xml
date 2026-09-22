@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 方块文言：透明底 + 等距立方体（方块）+ 白色「文」字 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 立方体顶面（亮） -->
+    <path
+        android:fillColor="#6FBF73"
+        android:pathData="M54,14 L94,34 L54,54 L14,34 Z" />
+
+    <!-- 立方体左面（中） -->
+    <path
+        android:fillColor="#4EA75A"
+        android:pathData="M14,34 L54,54 L54,96 L14,76 Z" />
+
+    <!-- 立方体右面（暗） -->
+    <path
+        android:fillColor="#35703C"
+        android:pathData="M94,34 L94,76 L54,96 L54,54 Z" />
+
+    <!-- 立方体棱线（描边，增强块感） -->
+    <path
+        android:strokeColor="#2A5E31"
+        android:strokeWidth="1.5"
+        android:pathData="M14,34 L54,14 L94,34 L94,76 L54,96 L14,76 Z" />
+    <path
+        android:strokeColor="#2A5E31"
+        android:strokeWidth="1.5"
+        android:pathData="M54,54 L54,96 M54,54 L14,34 M54,54 L94,34" />
+
+    <!-- 「文」字：顶部点 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,24 h6 v6 h-6 z" />
+
+    <!-- 「文」字：横画 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M34,38 L74,38" />
+
+    <!-- 「文」字：撇捺交叉 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M37,46 L71,82" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M71,46 L37,82" />
+
+</vector>

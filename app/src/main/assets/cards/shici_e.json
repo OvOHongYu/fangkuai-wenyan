@@ -1,0 +1,1843 @@
+[
+  {
+    "id": "shi_shao",
+    "type": "实词",
+    "char": "少",
+    "pinyin": "shǎo, shào",
+    "picture": "一大筐果实被人拿走了大半，筐底只剩寥寥可数的几颗",
+    "benyi": "数量小、不多",
+    "chain": [
+      {
+        "from": "筐里果实所剩无几",
+        "to": "数量少",
+        "condition": "东西不多，与'多'相对（言少钱）"
+      },
+      {
+        "from": "筐里果实所剩无几",
+        "to": "缺少",
+        "condition": "该有的没有，短缺不足（今少一人）"
+      },
+      {
+        "from": "筐里果实所剩无几",
+        "to": "稍微",
+        "condition": "程度上差得不多，略微（读shǎo，太后之色少解）"
+      },
+      {
+        "from": "筐里果实所剩无几",
+        "to": "轻视",
+        "condition": "把人看少、看低（动词，读shǎo，少仲尼之闻）"
+      },
+      {
+        "from": "筐里果实所剩无几",
+        "to": "一会儿",
+        "condition": "时间短少，片刻（少焉、少顷）"
+      },
+      {
+        "from": "筐里果实所剩无几",
+        "to": "年轻",
+        "condition": "年岁尚少，与'老'相对（读shào，少以父任）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "数量少",
+        "sentence": "主人何为言少钱，径须沽取对君酌",
+        "source": "《将进酒》",
+        "translation": "主人为何说钱少呢，只管去买酒来让我们喝个够",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "缺少",
+        "sentence": "今少一人，愿君即以遂备员而行矣",
+        "source": "《史记·平原君虞卿列传》",
+        "translation": "如今还缺少一个人，希望您就让毛遂我凑个数一同去吧",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "稍微",
+        "sentence": "太后之色少解",
+        "source": "《触龙说赵太后》",
+        "translation": "太后的脸色稍微缓和了些",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "轻视",
+        "sentence": "且夫我尝闻少仲尼之闻，而轻伯夷之义者",
+        "source": "《秋水》",
+        "translation": "我曾听说有人小看孔子的学识、轻视伯夷的义行",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "一会儿",
+        "sentence": "少焉，月出于东山之上，徘徊于斗牛之间",
+        "source": "《赤壁赋》",
+        "translation": "不一会儿，月亮从东山上升起，在斗宿和牛宿之间徘徊",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "年轻",
+        "sentence": "少以父任，兄弟并为郎",
+        "source": "《苏武传》",
+        "translation": "苏武年轻时因父亲职任的关系，兄弟都做了郎官",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "少见多怪",
+        "yixiang": "数量少"
+      },
+      {
+        "idiom": "少安毋躁",
+        "yixiang": "一会儿"
+      },
+      {
+        "idiom": "少不更事",
+        "yixiang": "年轻"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'少'读shǎo表数量少、缺少、稍微、轻视；读shào表年轻（少时、少子）。'少焉''少顷'是'一会儿'，别误作'少年'；'少仲尼之闻'的'少'是动词'小看'，'太后之色少解'的'少'是'稍微'",
+        "gaokao": "'少焉，月出于东山之上'出自必背篇目《赤壁赋》，是默写高频句"
+      }
+    ],
+    "mnemonic": "少字筐中物不多，缺少轻视稍片刻，年岁尚少两读别。",
+    "relatedChars": [
+      "多",
+      "微",
+      "幼"
+    ]
+  },
+  {
+    "id": "shi_she",
+    "type": "实词",
+    "char": "涉",
+    "pinyin": "shè",
+    "picture": "一个人挽起裤脚，正蹚着浅浅的河水一步一步走过小河",
+    "benyi": "徒步渡水",
+    "chain": [
+      {
+        "from": "光脚蹚水过河",
+        "to": "渡水、渡过",
+        "condition": "不乘舟船，直接从水中走过（送子涉淇）"
+      },
+      {
+        "from": "光脚蹚水过河",
+        "to": "涉足、散步",
+        "condition": "进入其中、踏足其间（园日涉以成趣）"
+      },
+      {
+        "from": "光脚蹚水过河",
+        "to": "经历",
+        "condition": "一步一步蹚过岁月，如涉世、涉旬月"
+      },
+      {
+        "from": "光脚蹚水过河",
+        "to": "涉猎、浏览",
+        "condition": "粗略接触、泛览群书（涉猎书传）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "渡水、渡过",
+        "sentence": "送子涉淇，至于顿丘",
+        "source": "《氓》",
+        "translation": "送你渡过淇水，一直送到顿丘",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "渡水、渡过",
+        "sentence": "涉江采芙蓉，兰泽多芳草",
+        "source": "《涉江采芙蓉》",
+        "translation": "渡过江水去采芙蓉，兰草生长的水泽芳草萋萋",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "涉足、散步",
+        "sentence": "园日涉以成趣，门虽设而常关",
+        "source": "《归去来兮辞》",
+        "translation": "每天到园中散步自成乐趣，门户虽然设置却常常关闭",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "经历",
+        "sentence": "今少卿抱不测之罪，涉旬月，迫季冬",
+        "source": "《报任安书》",
+        "translation": "如今您身遭不可测的重罪，再过一个月，就临近冬季的时节",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "涉猎、浏览",
+        "sentence": "有口辩，而涉猎书传",
+        "source": "《后汉书·班超传》",
+        "translation": "（班超）有口才，而且广泛浏览各种书籍",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "跋山涉水",
+        "yixiang": "渡水、渡过"
+      },
+      {
+        "idiom": "涉世未深",
+        "yixiang": "经历"
+      },
+      {
+        "idiom": "远涉重洋",
+        "yixiang": "渡水、渡过"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'园日涉以成趣'的'涉'是'散步、涉足'，不是'渡水'；'涉猎'的'涉'是粗略接触、浏览，也与蹚水无关；'涉旬月'是'经历、经过'时间",
+        "gaokao": "《归去来兮辞》为高考必背篇目，'园日涉以成趣'是默写与翻译高频句"
+      }
+    ],
+    "mnemonic": "涉字蹚水步过河，渡过经历涉足多。",
+    "relatedChars": [
+      "渡",
+      "历",
+      "跋"
+    ]
+  },
+  {
+    "id": "shi_sheng",
+    "type": "实词",
+    "char": "胜",
+    "pinyin": "shèng, shēng",
+    "picture": "一只手稳稳托住沉重的大石，手臂微颤却没有垮下",
+    "benyi": "能承受、承担得住（旧读shēng）",
+    "chain": [
+      {
+        "from": "手臂托住重物撑住了",
+        "to": "能承受",
+        "condition": "担得起、扛得住（旧读shēng，如'不胜杯杓'）"
+      },
+      {
+        "from": "手臂托住重物撑住了",
+        "to": "超过",
+        "condition": "把对方压在了下面"
+      },
+      {
+        "from": "手臂托住重物撑住了",
+        "to": "胜利",
+        "condition": "与'败''负'相对"
+      },
+      {
+        "from": "手臂托住重物撑住了",
+        "to": "尽、完",
+        "condition": "承受不尽，引申为'数也数不尽'（读shēng）"
+      },
+      {
+        "from": "手臂托住重物撑住了",
+        "to": "优美的",
+        "condition": "好得令人赞叹（胜景、名胜）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "能承受",
+        "sentence": "沛公不胜杯杓，不能辞",
+        "source": "《鸿门宴》",
+        "translation": "沛公承受不住酒力，不能亲自来告辞",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "超过",
+        "sentence": "质胜文则野，文胜质则史",
+        "source": "《论语》十二章",
+        "translation": "质朴超过文采就显得粗野，文采超过质朴就显得虚浮",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "胜利",
+        "sentence": "犹有可以不赂而胜之之势",
+        "source": "《六国论》",
+        "translation": "却仍然有可以不贿赂秦国而战胜它的形势",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "尽、完",
+        "sentence": "杀人如恐不能举，刑人如恐不胜",
+        "source": "《鸿门宴》",
+        "translation": "杀人惟恐不能杀尽，处罚人惟恐不能用尽酷刑",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "优美的",
+        "sentence": "予观夫巴陵胜状，在洞庭一湖",
+        "source": "《岳阳楼记》",
+        "translation": "我看那巴陵郡的美景，全在洞庭一湖",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "不胜枚举",
+        "yixiang": "尽、完"
+      },
+      {
+        "idiom": "引人入胜",
+        "yixiang": "优美的"
+      },
+      {
+        "idiom": "百战百胜",
+        "yixiang": "胜利"
+      },
+      {
+        "idiom": "略胜一筹",
+        "yixiang": "超过"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'不胜杯杓''不可胜数'读shēng，表'能承受''尽'；读shèng才表胜利、超过、优美的。'刑人如恐不胜'的'胜'是'尽'，不能译成'胜利'",
+        "gaokao": "《鸿门宴》《六国论》均为高考必背篇目，'不胜杯杓'是默写高频句"
+      }
+    ],
+    "mnemonic": "胜字托石担得动，承受超过胜利尽。",
+    "relatedChars": [
+      "负",
+      "败",
+      "赢"
+    ]
+  },
+  {
+    "id": "shi_shi",
+    "type": "实词",
+    "char": "使",
+    "pinyin": "shǐ",
+    "picture": "官员手持符节奉命出门，快马加鞭奔向远方的邦国",
+    "benyi": "派遣、命令",
+    "chain": [
+      {
+        "from": "手持符节奉命出行",
+        "to": "派遣",
+        "condition": "打发人去办事"
+      },
+      {
+        "from": "手持符节奉命出行",
+        "to": "出使",
+        "condition": "受命前往别国办事"
+      },
+      {
+        "from": "手持符节奉命出行",
+        "to": "使者",
+        "condition": "被派出去的人（名词）"
+      },
+      {
+        "from": "手持符节奉命出行",
+        "to": "让、致使",
+        "condition": "派使人做事，引申为使令、致使"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "派遣",
+        "sentence": "项王使都尉陈平召沛公",
+        "source": "《鸿门宴》",
+        "translation": "项羽派都尉陈平去召请沛公",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "出使",
+        "sentence": "乃遣武以中郎将使持节送匈奴使留在汉者",
+        "source": "《苏武传》",
+        "translation": "（汉朝）就派苏武以中郎将的身份持节出使，送留在汉朝的匈奴使者回国",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "使者",
+        "sentence": "大王遣一介之使至赵，赵立奉璧来",
+        "source": "《廉颇蔺相如列传》",
+        "translation": "大王派一个使者到赵国，赵国立刻把和氏璧送来",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "让、致使",
+        "sentence": "使负栋之柱，多于南亩之农夫",
+        "source": "《阿房宫赋》",
+        "translation": "让（他们）背负栋梁的柱子，比田里的农夫还多",
+        "isGaokao": true
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "鬼使神差",
+        "yixiang": "派遣"
+      },
+      {
+        "idiom": "不辱使命",
+        "yixiang": "出使"
+      },
+      {
+        "idiom": "颐指气使",
+        "yixiang": "让、致使"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'使'作连词表假设：'向使三国各爱其地'（《六国论》）是'假使、如果'，不能译'派遣'；史传中的'使'多指'派、出使'",
+        "gaokao": "'使负栋之柱'出自必背篇目《阿房宫赋》，是翻译高频句"
+      }
+    ],
+    "mnemonic": "使字持节出门去，派遣出使让使臣。",
+    "relatedChars": [
+      "令",
+      "遣",
+      "命"
+    ]
+  },
+  {
+    "id": "shi_shi2",
+    "type": "实词",
+    "char": "是",
+    "pinyin": "shì",
+    "picture": "一根手指笔直地指向正午的太阳，端端正正分毫不斜",
+    "benyi": "正、直（对的）",
+    "chain": [
+      {
+        "from": "影子正对太阳，端端正正",
+        "to": "正确",
+        "condition": "与'非'相对"
+      },
+      {
+        "from": "影子正对太阳，端端正正",
+        "to": "认为对",
+        "condition": "把……看作对的（意动用法）"
+      },
+      {
+        "from": "影子正对太阳，端端正正",
+        "to": "这、这样",
+        "condition": "正对着的东西就在眼前，指代分明（指示代词）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "正确",
+        "sentence": "觉今是而昨非",
+        "source": "《归去来兮辞》",
+        "translation": "觉悟到今天（归隐）是对的，昨天（出仕）错了",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "认为对",
+        "sentence": "是己而非人，俗之同病",
+        "source": "《问说》",
+        "translation": "认为自己正确、认为别人错误，这是世俗共同的毛病",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "这、这样",
+        "sentence": "是日也，天朗气清，惠风和畅",
+        "source": "《兰亭集序》",
+        "translation": "这一天，天空晴朗，空气清新，和风轻柔",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "这、这样",
+        "sentence": "是进亦忧，退亦忧",
+        "source": "《岳阳楼记》",
+        "translation": "这样进也忧虑，退也忧虑",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "自以为是",
+        "yixiang": "认为对"
+      },
+      {
+        "idiom": "是非分明",
+        "yixiang": "正确"
+      },
+      {
+        "idiom": "一无是处",
+        "yixiang": "正确"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "文言判断句多不用'是'作系动词；'是'常作指示代词'这'（是日也、是说也），别一律译成'是'；'觉今是而昨非'的'是'是'正确'",
+        "gaokao": "'是日也''觉今是而昨非'均为必背篇目默写高频句"
+      }
+    ],
+    "mnemonic": "是字日影正不斜，正确这番认为对。",
+    "relatedChars": [
+      "非",
+      "此",
+      "斯"
+    ]
+  },
+  {
+    "id": "shi_shi3",
+    "type": "实词",
+    "char": "适",
+    "pinyin": "shì",
+    "picture": "一个人背起行囊，迈开大步独自走向远处的城邑",
+    "benyi": "往、到……去",
+    "chain": [
+      {
+        "from": "迈步走向城邑",
+        "to": "到、往",
+        "condition": "去往某地（适莽苍者）"
+      },
+      {
+        "from": "迈步走向城邑",
+        "to": "适合、舒适",
+        "condition": "迎合、相合（少无适俗韵）"
+      },
+      {
+        "from": "迈步走向城邑",
+        "to": "恰好、刚刚",
+        "condition": "正巧赶上这个时候（适得府君书）"
+      },
+      {
+        "from": "迈步走向城邑",
+        "to": "出嫁",
+        "condition": "女子往到夫家（始适还家门）"
+      },
+      {
+        "from": "迈步走向城邑",
+        "to": "享有、享用",
+        "condition": "前往取用，故能共同受用（而吾与子之所共适）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "到、往",
+        "sentence": "适莽苍者，三餐而反，腹犹果然",
+        "source": "《逍遥游》",
+        "translation": "到近郊去的人，只带三餐饭食当天返回，肚子还是饱的",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "适合、舒适",
+        "sentence": "少无适俗韵，性本爱丘山",
+        "source": "《归园田居·其一》",
+        "translation": "年少时就没有迎合世俗的性情，天性本来喜爱山川田园",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "恰好、刚刚",
+        "sentence": "适得府君书，明日来迎汝",
+        "source": "《孔雀东南飞》",
+        "translation": "刚才得到太守的信，明天就来迎接你",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "出嫁",
+        "sentence": "贫贱有此女，始适还家门",
+        "source": "《孔雀东南飞》",
+        "translation": "我们贫贱人家生出这个女儿，刚出嫁就被休回娘家",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "享有、享用",
+        "sentence": "是造物者之无尽藏也，而吾与子之所共适",
+        "source": "《赤壁赋》",
+        "translation": "这是大自然无穷无尽的宝藏，是我和你可以共同享用的",
+        "isGaokao": true
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "适逢其会",
+        "yixiang": "恰好、刚刚"
+      },
+      {
+        "idiom": "无所适从",
+        "yixiang": "到、往"
+      },
+      {
+        "idiom": "适可而止",
+        "yixiang": "适合、舒适"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'始适还家门'的'适'是'出嫁'，'适得府君书'是'刚刚'，'适莽苍者'是'到'，'少无适俗韵'是'迎合'，'共适'是'享有'——同一个'适'各有其义，不可混译",
+        "gaokao": "'而吾与子之所共适'出自必背篇目《赤壁赋》，翻译常设此点"
+      }
+    ],
+    "mnemonic": "适字迈步向城邑，到往出嫁恰合意，共同享用又一义。",
+    "relatedChars": [
+      "往",
+      "之",
+      "如"
+    ]
+  },
+  {
+    "id": "shi_shu",
+    "type": "实词",
+    "char": "书",
+    "pinyin": "shū",
+    "picture": "一支毛笔蘸饱了墨，正在长长的竹简上落字成文",
+    "benyi": "写、记录",
+    "chain": [
+      {
+        "from": "毛笔在竹简上落字",
+        "to": "写、书写",
+        "condition": "提笔记录（前书曰、手书）"
+      },
+      {
+        "from": "毛笔在竹简上落字",
+        "to": "书籍",
+        "condition": "写满文字、装订成册（借书满架、授之书）"
+      },
+      {
+        "from": "毛笔在竹简上落字",
+        "to": "书信、公文",
+        "condition": "写给特定对象的文字，含文书、奏章（家书、羽书）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "写、书写",
+        "sentence": "秦御史前书曰'某年月日，秦王与赵王会饮，令赵王鼓瑟'",
+        "source": "《廉颇蔺相如列传》",
+        "translation": "秦国御史走上前写道：'某年某月某日，秦王与赵王会饮，令赵王弹瑟'",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "书籍",
+        "sentence": "借书满架，偃仰啸歌",
+        "source": "《项脊轩志》",
+        "translation": "借来的书籍摆满书架，我安闲自得，时而放声吟诵",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "书籍",
+        "sentence": "授之书而习其句读者",
+        "source": "《师说》",
+        "translation": "教给他书本、帮助他学习断句的（老师）",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "书信、公文",
+        "sentence": "烽火连三月，家书抵万金",
+        "source": "《春望》",
+        "translation": "战火连绵三个月不断，一封家信抵得上万两黄金",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "书信、公文",
+        "sentence": "校尉羽书飞瀚海，单于猎火照狼山",
+        "source": "《燕歌行》",
+        "translation": "校尉的紧急军书从瀚海飞速传来，单于猎火的光照到了狼山",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "罄竹难书",
+        "yixiang": "写、书写"
+      },
+      {
+        "idiom": "奋笔疾书",
+        "yixiang": "写、书写"
+      },
+      {
+        "idiom": "书香门第",
+        "yixiang": "书籍"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'家书'是书信不是书籍；'上书'指进呈奏章；'罄竹难书'的'书'是动词'写'，与'书籍'无关",
+        "gaokao": "'借书满架'出自必背篇目《项脊轩志》，'授之书而习其句读'出自必背篇目《师说》，均属默写与翻译高频句"
+      }
+    ],
+    "mnemonic": "书字挥毫简上落，写字书信与书册。",
+    "relatedChars": [
+      "写",
+      "信",
+      "籍"
+    ]
+  },
+  {
+    "id": "shi_shu2",
+    "type": "实词",
+    "char": "孰",
+    "pinyin": "shú",
+    "picture": "一个人双手各托一样物品，眯眼反复打量想挑出更好的",
+    "benyi": "谁、哪一个（疑问代词）",
+    "chain": [
+      {
+        "from": "对两样东西反复打量比较",
+        "to": "哪一个",
+        "condition": "两者相择（孰美、孰优）"
+      },
+      {
+        "from": "对两样东西反复打量比较",
+        "to": "谁",
+        "condition": "问人（孰能无惑）"
+      },
+      {
+        "from": "对两样东西反复打量比较",
+        "to": "什么",
+        "condition": "问事物（是可忍，孰不可忍）"
+      },
+      {
+        "from": "对两样东西反复打量比较",
+        "to": "通'熟'",
+        "condition": "仔细、周详（孰计议之，读shú）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "哪一个",
+        "sentence": "吾与徐公孰美",
+        "source": "《邹忌讽齐王纳谏》",
+        "translation": "我和城北徐公谁更美",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "谁",
+        "sentence": "人非生而知之者，孰能无惑",
+        "source": "《师说》",
+        "translation": "人不是生下来就懂得道理的，谁能没有疑惑",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "什么",
+        "sentence": "是可忍也，孰不可忍也",
+        "source": "《论语·八佾》",
+        "translation": "这（种事）都可以容忍，还有什么不可以容忍呢",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "通'熟'",
+        "sentence": "唯大王与群臣孰计议之",
+        "source": "《廉颇蔺相如列传》",
+        "translation": "希望大王与群臣仔细商议这件事",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "孰是孰非",
+        "yixiang": "哪一个"
+      },
+      {
+        "idiom": "人非圣贤孰能无过",
+        "yixiang": "谁"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'唯大王与群臣孰计议之'的'孰'通'熟'，译'仔细'，不是'谁'；'孰与''孰若'表比较：'与……相比，哪个更……'",
+        "gaokao": "'孰能无惑'出自必背篇目《师说》，是默写高频句"
+      }
+    ],
+    "mnemonic": "孰字低头比两物，谁个仔细通熟看。",
+    "relatedChars": [
+      "熟",
+      "谁",
+      "何"
+    ]
+  },
+  {
+    "id": "shi_shu3",
+    "type": "实词",
+    "char": "属",
+    "pinyin": "zhǔ, shǔ",
+    "picture": "一根细绳把散落的珠子一颗接着一颗串连起来",
+    "benyi": "连接、连续",
+    "chain": [
+      {
+        "from": "把珠子一颗颗串连起来",
+        "to": "连接、连续",
+        "condition": "前后相接不断（读zhǔ，属引凄异）"
+      },
+      {
+        "from": "把珠子一颗颗串连起来",
+        "to": "撰写",
+        "condition": "把文字连缀成章（属草稿，读zhǔ）"
+      },
+      {
+        "from": "把珠子一颗颗串连起来",
+        "to": "通'嘱'",
+        "condition": "托付、劝请（属予作文、举酒属客，读zhǔ）"
+      },
+      {
+        "from": "把珠子一颗颗串连起来",
+        "to": "类、辈",
+        "condition": "同类相连（之属、若属，读shǔ）"
+      },
+      {
+        "from": "把珠子一颗颗串连起来",
+        "to": "隶属",
+        "condition": "连在一起归属其下（读shǔ，名属教坊第一部）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "连接、连续",
+        "sentence": "常有高猿长啸，属引凄异，空谷传响，哀转久绝",
+        "source": "《三峡》",
+        "translation": "常常有高处的猿猴放声长叫，声音接连不断，凄凉怪异，空荡的山谷里传来回声，悲哀婉转，很久才消失",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "撰写",
+        "sentence": "屈平属草稿未定",
+        "source": "《屈原列传》",
+        "translation": "屈原正在编写草稿，尚未定稿",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "通'嘱'",
+        "sentence": "举酒属客，诵明月之诗",
+        "source": "《赤壁赋》",
+        "translation": "举起酒杯劝客人饮酒，朗诵'明月'的诗篇",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "类、辈",
+        "sentence": "有宁越、徐尚、苏秦、杜赫之属为之谋",
+        "source": "《过秦论》",
+        "translation": "有宁越、徐尚、苏秦、杜赫这类人替他们出谋划策",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "类、辈",
+        "sentence": "不者，若属皆且为所虏",
+        "source": "《鸿门宴》",
+        "translation": "不然的话，你们这些人都将被他俘虏",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "隶属",
+        "sentence": "十三学得琵琶成，名属教坊第一部",
+        "source": "《琵琶行》",
+        "translation": "十三岁就学会了弹奏琵琶，名字登记在教坊第一部里",
+        "isGaokao": true
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "属辞比事",
+        "yixiang": "撰写"
+      },
+      {
+        "idiom": "属垣有耳",
+        "yixiang": "连接、连续"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'属'读shǔ表'类、隶属'（之属、若属）；读zhǔ表'连接、撰写、通嘱'（属草稿、举酒属客、属予作文以记之）——读音混淆是翻译与默写的高频失分点",
+        "gaokao": "'举酒属客'出自必背篇目《赤壁赋》，'属'通'嘱'常考"
+      }
+    ],
+    "mnemonic": "属字串珠连成串，撰写嘱托类隶属。",
+    "relatedChars": [
+      "缀",
+      "嘱",
+      "类"
+    ]
+  },
+  {
+    "id": "shi_shu4",
+    "type": "实词",
+    "char": "数",
+    "pinyin": "shù, shǔ, shuò",
+    "picture": "一个人盘腿坐着掰着手指，把面前的石子一个一个点数",
+    "benyi": "点数、计算",
+    "chain": [
+      {
+        "from": "掰指清点石子",
+        "to": "计算",
+        "condition": "一个一个地数（读shǔ，以千数）"
+      },
+      {
+        "from": "掰指清点石子",
+        "to": "数目、数量",
+        "condition": "数出来的结果（读shù，不知数）"
+      },
+      {
+        "from": "掰指清点石子",
+        "to": "几、几个",
+        "condition": "不确定的数目（读shù，数口之家）"
+      },
+      {
+        "from": "掰指清点石子",
+        "to": "命运、定数",
+        "condition": "冥冥中早已数定（读shù，胜负之数）"
+      },
+      {
+        "from": "掰指清点石子",
+        "to": "屡次、多次",
+        "condition": "一次次接连发生（读shuò，数目项王）"
+      },
+      {
+        "from": "掰指清点石子",
+        "to": "细密",
+        "condition": "孔眼一个挨一个，密而不疏（读cù，数罟）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "计算",
+        "sentence": "蒙冲斗舰乃以千数",
+        "source": "《赤壁之战》",
+        "translation": "蒙冲战船竟然要用千来计算",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "数目、数量",
+        "sentence": "五陵年少争缠头，一曲红绡不知数",
+        "source": "《琵琶行》",
+        "translation": "富家子弟争着赠送财物，一曲弹罢收到的红绡多得数不清",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "几、几个",
+        "sentence": "数口之家，可以无饥矣",
+        "source": "《寡人之于国也》",
+        "translation": "几口人的家庭，就可以不挨饿了",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "命运、定数",
+        "sentence": "则胜负之数，存亡之理，当与秦相较，或未易量",
+        "source": "《六国论》",
+        "translation": "那么胜负存亡的命运，如果同秦国较量，或许还不容易估量",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "屡次、多次",
+        "sentence": "范增数目项王，举所佩玉玦以示之者三",
+        "source": "《鸿门宴》",
+        "translation": "范增多次向项王使眼色，接连三次举起佩带的玉玦示意",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "细密",
+        "sentence": "数罟不入洿池，鱼鳖不可胜食也",
+        "source": "《寡人之于国也》",
+        "translation": "细密的渔网不进入池塘，鱼鳖就吃不完了",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "如数家珍",
+        "yixiang": "计算"
+      },
+      {
+        "idiom": "数见不鲜",
+        "yixiang": "屡次、多次"
+      },
+      {
+        "idiom": "不可胜数",
+        "yixiang": "计算"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'数'三读：shù表数目、几、命运；shǔ表计算、一一列举；shuò表屡次（'范增数目项王'）。另有读cù表'细密'（'数罟不入洿池'）。读音错则义项错",
+        "gaokao": "'范增数目项王'出自必背篇目《鸿门宴》，'数'读shuò常考"
+      }
+    ],
+    "mnemonic": "数字掰指点数目，几多命运屡次数，另有细密读作cù。",
+    "relatedChars": [
+      "算",
+      "屡",
+      "点"
+    ]
+  },
+  {
+    "id": "shi_shuai",
+    "type": "实词",
+    "char": "率",
+    "pinyin": "shuài, lǜ",
+    "picture": "猎人张开长柄大网，把飞来的一群鸟儿一齐兜住",
+    "benyi": "捕鸟的长柄网",
+    "chain": [
+      {
+        "from": "张开网索把鸟群一齐兜住",
+        "to": "率领",
+        "condition": "网在前兜着，人在前领着众人"
+      },
+      {
+        "from": "张开网索把鸟群一齐兜住",
+        "to": "遵循、沿着",
+        "condition": "顺着绳索的方向走（率由旧章）"
+      },
+      {
+        "from": "张开网索把鸟群一齐兜住",
+        "to": "全都、一概",
+        "condition": "一网收尽，无一遗漏（率赂秦耶）"
+      },
+      {
+        "from": "张开网索把鸟群一齐兜住",
+        "to": "轻率",
+        "condition": "不加斟酌、贸然而行（率尔而对）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "率领",
+        "sentence": "率疲弊之卒，将数百之众，转而攻秦",
+        "source": "《过秦论》",
+        "translation": "率领疲惫困乏的士卒，带着几百人的队伍，回过头来攻打秦国",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "遵循、沿着",
+        "sentence": "此吾所以敢率性就死不顾汝也",
+        "source": "《与妻书》",
+        "translation": "这就是我敢于依循本性慷慨赴死而不顾你的原因",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "全都、一概",
+        "sentence": "六国互丧，率赂秦耶",
+        "source": "《六国论》",
+        "translation": "六国一个接一个地灭亡，全都是因为贿赂秦国吗",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "轻率",
+        "sentence": "子路率尔而对曰",
+        "source": "《子路、曾皙、冉有、公西华侍坐》",
+        "translation": "子路轻率急忙地回答说",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "率由旧章",
+        "yixiang": "遵循、沿着"
+      },
+      {
+        "idiom": "率先垂范",
+        "yixiang": "率领"
+      },
+      {
+        "idiom": "草率从事",
+        "yixiang": "轻率"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'六国互丧，率赂秦耶'的'率'是'全都、一概'，误译成'率领'是经典失分点；'率尔'是轻率的样子；今义'效率、税率'读lǜ",
+        "gaokao": "'率赂秦耶'出自必背篇目《六国论》，'率'释'全都'为翻译常考点"
+      }
+    ],
+    "mnemonic": "率字张网兜飞鸟，率领遵循全都到。",
+    "relatedChars": [
+      "领",
+      "循",
+      "将"
+    ]
+  },
+  {
+    "id": "shi_shuo",
+    "type": "实词",
+    "char": "说",
+    "pinyin": "shuō, shuì, yuè",
+    "picture": "一个人开口陈说，把心里的话一句句讲给别人听",
+    "benyi": "陈说、解说（用言辞开解）",
+    "chain": [
+      {
+        "from": "开口把话讲明白",
+        "to": "说话、陈说",
+        "condition": "讲给人听"
+      },
+      {
+        "from": "开口把话讲明白",
+        "to": "劝说",
+        "condition": "用言辞打动、说服别人（读shuì）"
+      },
+      {
+        "from": "开口把话讲明白",
+        "to": "通'悦'",
+        "condition": "话听得称心，心里高兴（读yuè）"
+      },
+      {
+        "from": "开口把话讲明白",
+        "to": "学说、说法",
+        "condition": "所陈述的一套道理"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "说话、陈说",
+        "sentence": "低眉信手续续弹，说尽心中无限事",
+        "source": "《琵琶行》",
+        "translation": "低着眉随手连续弹奏，把心中无限的往事都陈说出来",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "劝说",
+        "sentence": "范增说项羽曰",
+        "source": "《鸿门宴》",
+        "translation": "范增劝说项羽说",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "劝说",
+        "sentence": "鲰生说我曰'距关，毋内诸侯，秦地可尽王也'",
+        "source": "《鸿门宴》",
+        "translation": "有个浅陋的小人劝我说：'把守住关口，不要放诸侯进来，秦国的土地就可以全部由你称王了'",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "通'悦'",
+        "sentence": "秦伯说，与郑人盟",
+        "source": "《烛之武退秦师》",
+        "translation": "秦伯高兴了，与郑国订立盟约",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "学说、说法",
+        "sentence": "是说也，人常疑之",
+        "source": "《石钟山记》",
+        "translation": "这种说法，人们常常怀疑它",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "能说会道",
+        "yixiang": "说话、陈说"
+      },
+      {
+        "idiom": "道听途说",
+        "yixiang": "学说、说法"
+      },
+      {
+        "idiom": "自圆其说",
+        "yixiang": "学说、说法"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'说'三读：shuō一般陈述、学说；shuì劝人听从（游说、范增说项王）；yuè通'悦'（秦伯说、不亦说乎）。误读误译是常设陷阱",
+        "gaokao": "'秦伯说，与郑人盟'出自必背篇目《烛之武退秦师》，'说'通'悦'为默写与翻译高频点"
+      }
+    ],
+    "mnemonic": "说字开口把话陈，劝说通悦凭言谈。",
+    "relatedChars": [
+      "言",
+      "悦",
+      "游"
+    ]
+  },
+  {
+    "id": "shi_si",
+    "type": "实词",
+    "char": "私",
+    "pinyin": "sī",
+    "picture": "一个人抱着禾谷躲进自家小门，生怕分给别家的人",
+    "benyi": "偏爱、偏私（谷物只入自家门）",
+    "chain": [
+      {
+        "from": "禾谷只归自家门内",
+        "to": "偏私、偏爱",
+        "condition": "偏向自己人（私我）"
+      },
+      {
+        "from": "禾谷只归自家门内",
+        "to": "私人的、自己的",
+        "condition": "与'公'相对"
+      },
+      {
+        "from": "禾谷只归自家门内",
+        "to": "私下、偷偷地",
+        "condition": "避开众人暗中行事"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "偏私、偏爱",
+        "sentence": "吾妻之美我者，私我也",
+        "source": "《邹忌讽齐王纳谏》",
+        "translation": "我的妻子认为我美，是偏爱我啊",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "私人的、自己的",
+        "sentence": "欲苟顺私情，则告诉不许",
+        "source": "《陈情表》",
+        "translation": "想姑且迁就自己的私情，但申诉请求又得不到准许",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "私下、偷偷地",
+        "sentence": "虞常在汉时，素与副张胜相知，私候胜曰",
+        "source": "《苏武传》",
+        "translation": "虞常在汉朝时，一向与副使张胜相熟，私下拜访张胜说",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "假公济私",
+        "yixiang": "私人的、自己的"
+      },
+      {
+        "idiom": "徇私舞弊",
+        "yixiang": "偏私、偏爱"
+      },
+      {
+        "idiom": "私相授受",
+        "yixiang": "私下、偷偷地"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'私我'的'私'是动词'偏爱'，不是'私人的'；'私语''私焉''私候'多指'私下、暗中'，翻译时注意词性活用",
+        "gaokao": "'欲苟顺私情，则告诉不许'出自必背篇目《陈情表》，'告诉'古今异义连考"
+      }
+    ],
+    "mnemonic": "私字抱谷归己门，偏爱私情暗自分。",
+    "relatedChars": [
+      "公",
+      "偏",
+      "徇"
+    ]
+  },
+  {
+    "id": "shi_su",
+    "type": "实词",
+    "char": "素",
+    "pinyin": "sù",
+    "picture": "一匹高高垂下来的白色生绢，还没有染上任何颜色",
+    "benyi": "未染色的生绢",
+    "chain": [
+      {
+        "from": "未染色的白生绢",
+        "to": "白绢",
+        "condition": "未染色的生绢（本义，名词，十三能织素）"
+      },
+      {
+        "from": "未染色的白生绢",
+        "to": "白色的",
+        "condition": "本色未染（素湍、素月）"
+      },
+      {
+        "from": "未染色的白生绢",
+        "to": "朴素、不加装饰",
+        "condition": "不施彩绘修饰（俭素）"
+      },
+      {
+        "from": "未染色的白生绢",
+        "to": "平素、一向",
+        "condition": "生绢日常常用，长久一贯如此"
+      },
+      {
+        "from": "未染色的白生绢",
+        "to": "空、白白地",
+        "condition": "不劳而获（素餐）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "白绢",
+        "sentence": "十三能织素，十四学裁衣",
+        "source": "《孔雀东南飞》",
+        "translation": "十三岁就能织白绢，十四岁学会裁剪衣裳",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "白色的",
+        "sentence": "素湍绿潭，回清倒影",
+        "source": "《三峡》",
+        "translation": "白色的急流，碧绿的深潭，回旋的清波中倒映着景物",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "朴素、不加装饰",
+        "sentence": "众人皆以奢靡为荣，吾心独以俭素为美",
+        "source": "《训俭示康》",
+        "translation": "众人都把奢侈浪费当作荣耀，我心中独把节俭朴素当作美德",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "平素、一向",
+        "sentence": "虞常在汉时，素与副张胜相知",
+        "source": "《苏武传》",
+        "translation": "虞常在汉朝时，一向与副使张胜相熟",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "空、白白地",
+        "sentence": "彼君子兮，不素餐兮",
+        "source": "《诗经·伐檀》",
+        "translation": "那些君子啊，可不白吃饭啊",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "素昧平生",
+        "yixiang": "平素、一向"
+      },
+      {
+        "idiom": "训练有素",
+        "yixiang": "平素、一向"
+      },
+      {
+        "idiom": "尸位素餐",
+        "yixiang": "空、白白地"
+      },
+      {
+        "idiom": "安之若素",
+        "yixiang": "平素、一向"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'素'作副词是'一向、平素'（素与张胜相知），名词是'白绢'，形容词是'白色的、朴素的'；'尸位素餐'的'素'是'空、白白地'，不能解作'朴素'",
+        "gaokao": "'素与副张胜相知'出自必背篇目《苏武传》，'素'的副词义是课内高频考点"
+      }
+    ],
+    "mnemonic": "素字白绢未经染，白色朴素一向然。",
+    "relatedChars": [
+      "白",
+      "缟",
+      "朴"
+    ]
+  },
+  {
+    "id": "shi_tang",
+    "type": "实词",
+    "char": "汤",
+    "pinyin": "tāng, shāng",
+    "picture": "一锅开水架在旺火上翻滚，热气腾腾地直往上冒",
+    "benyi": "热水、开水",
+    "chain": [
+      {
+        "from": "大火烧水，热气翻滚",
+        "to": "热水、开水",
+        "condition": "滚烫的水（赴汤蹈火）"
+      },
+      {
+        "from": "大火烧水，热气翻滚",
+        "to": "护城河",
+        "condition": "绕城如热水池，敌人不敢近（金城汤池）"
+      },
+      {
+        "from": "大火烧水，热气翻滚",
+        "to": "汤药",
+        "condition": "煎煮的药水（后起义）"
+      },
+      {
+        "from": "大火烧水，热气翻滚",
+        "to": "水势浩大",
+        "condition": "波涛涌流貌（读shāng，浩浩汤汤）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "热水、开水",
+        "sentence": "及其日中如探汤",
+        "source": "《两小儿辩日》",
+        "translation": "到了中午（晒得）就像把手伸进热水里一样灼热",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "热水、开水",
+        "sentence": "虽蒙斧钺汤镬，诚甘乐之",
+        "source": "《苏武传》",
+        "translation": "即使遭受斧钺、汤镬这样的酷刑，也确实心甘情愿",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "护城河",
+        "sentence": "有石城十仞，汤池百步，带甲百万，而亡粟，弗能守也",
+        "source": "《汉书·食货志》",
+        "translation": "有七八丈高的石头城墙，百步宽的护城河，上百万身披铠甲的士兵，但没有粮食，也是守不住的",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "汤药",
+        "sentence": "臣侍汤药，未曾废离",
+        "source": "《陈情表》",
+        "translation": "我侍奉祖母（服用）汤药，从来没有停止、离开过",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "水势浩大",
+        "sentence": "浩浩汤汤，横无际涯",
+        "source": "《岳阳楼记》",
+        "translation": "水势浩大汹涌，宽阔无边",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "赴汤蹈火",
+        "yixiang": "热水、开水"
+      },
+      {
+        "idiom": "固若金汤",
+        "yixiang": "护城河"
+      },
+      {
+        "idiom": "金城汤池",
+        "yixiang": "护城河"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'汤'古义是热水（探汤、赴汤蹈火），今义'菜汤'是后起义；'浩浩汤汤'读shāng，形容水势浩大；'固若金汤'的'汤'指护城河，不是热水",
+        "gaokao": "'臣侍汤药，未曾废离'出自必背篇目《陈情表》，是默写高频句"
+      }
+    ],
+    "mnemonic": "汤字沸水锅中滚，护城汤药浩浩奔。",
+    "relatedChars": [
+      "沸",
+      "烫",
+      "池"
+    ]
+  },
+  {
+    "id": "shi_ti",
+    "type": "实词",
+    "char": "涕",
+    "pinyin": "tì",
+    "picture": "一个人掩面而泣，泪水大颗大颗地滚落在衣襟上",
+    "benyi": "眼泪",
+    "chain": [
+      {
+        "from": "泪水从眼中涌出",
+        "to": "眼泪",
+        "condition": "涕泪交流（本义）"
+      },
+      {
+        "from": "泪水从眼中涌出",
+        "to": "流泪、哭泣",
+        "condition": "名词活用作动词（涕零）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "眼泪",
+        "sentence": "长太息以掩涕兮，哀民生之多艰",
+        "source": "《离骚》",
+        "translation": "我长声叹息掩面拭泪啊，哀伤人民的生活如此多艰",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "眼泪",
+        "sentence": "出门登车去，涕落百余行",
+        "source": "《孔雀东南飞》",
+        "translation": "（兰芝）出门登上车离去，眼泪簌簌落下一百多行",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "眼泪",
+        "sentence": "戎马关山北，凭轩涕泗流",
+        "source": "《登岳阳楼》",
+        "translation": "北方边关战事又起，我倚着栏杆远望，不禁涕泪交流",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "流泪、哭泣",
+        "sentence": "临表涕零，不知所言",
+        "source": "《出师表》",
+        "translation": "面对奏表热泪零落，不知道说了些什么",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "感激涕零",
+        "yixiang": "流泪、哭泣"
+      },
+      {
+        "idiom": "涕泗横流",
+        "yixiang": "眼泪"
+      },
+      {
+        "idiom": "痛哭流涕",
+        "yixiang": "眼泪"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'涕'上古指眼泪，'鼻涕'是后起义；'临表涕零''感激涕零'的'涕'都译'眼泪'，不可解作鼻涕",
+        "gaokao": "'长太息以掩涕兮'出自必背篇目《离骚（节选）》，是默写高频句"
+      }
+    ],
+    "mnemonic": "涕字本是眼中泪，涕零感激泪湿襟。",
+    "relatedChars": [
+      "泪",
+      "泣",
+      "零"
+    ]
+  },
+  {
+    "id": "shi_tu",
+    "type": "实词",
+    "char": "徒",
+    "pinyin": "tú",
+    "picture": "两个人光着脚，一前一后沿着长长的土路步行赶路",
+    "benyi": "步行、徒步",
+    "chain": [
+      {
+        "from": "不乘车马，赤脚走路",
+        "to": "步行、徒步",
+        "condition": "徒手徒足而行（舍车而徒）"
+      },
+      {
+        "from": "不乘车马，赤脚走路",
+        "to": "徒众、同类的人",
+        "condition": "跟着同行的人，引申为同一类人、门徒"
+      },
+      {
+        "from": "不乘车马，赤脚走路",
+        "to": "服劳役的人、刑徒",
+        "condition": "被征发服役、供人驱使的人（迁徙之徒）"
+      },
+      {
+        "from": "不乘车马，赤脚走路",
+        "to": "空、白白地",
+        "condition": "两手空空，什么也没凭靠（徒见欺）"
+      },
+      {
+        "from": "不乘车马，赤脚走路",
+        "to": "只、仅仅",
+        "condition": "白白地只是如此（徒以口舌为劳）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "步行、徒步",
+        "sentence": "贲其趾，舍车而徒",
+        "source": "《周易·贲卦》",
+        "translation": "装饰自己的脚趾，舍弃车子而徒步行走",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "徒众、同类的人",
+        "sentence": "郯子之徒，其贤不及孔子",
+        "source": "《师说》",
+        "translation": "郯子这些人，他们的贤能都不及孔子",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "服劳役的人、刑徒",
+        "sentence": "然陈涉瓮牖绳枢之子，氓隶之人，而迁徙之徒也",
+        "source": "《过秦论》",
+        "translation": "然而陈涉不过是用破瓮作窗户、用草绳系门轴的穷家子弟，是供人驱使的氓隶，是被征发戍边的人",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "空、白白地",
+        "sentence": "秦城恐不可得，徒见欺",
+        "source": "《廉颇蔺相如列传》",
+        "translation": "秦国的城邑恐怕得不到，白白地遭受欺骗",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "只、仅仅",
+        "sentence": "而蔺相如徒以口舌为劳",
+        "source": "《廉颇蔺相如列传》",
+        "translation": "而蔺相如只不过靠言辞立了功劳",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "徒劳无功",
+        "yixiang": "空、白白地"
+      },
+      {
+        "idiom": "家徒四壁",
+        "yixiang": "只、仅仅"
+      },
+      {
+        "idiom": "徒有虚名",
+        "yixiang": "空、白白地"
+      },
+      {
+        "idiom": "好色之徒",
+        "yixiang": "徒众、同类的人"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'徒'在句首常是副词'只、白白地'（徒见欺、徒以口舌为劳），不是名词'徒弟'；'迁徙之徒'指被征发戍边服役的人",
+        "gaokao": "'郯子之徒，其贤不及孔子'出自必背篇目《师说》，是默写高频句"
+      }
+    ],
+    "mnemonic": "徒字无车步步行，同类白走一场空。",
+    "relatedChars": [
+      "步",
+      "行",
+      "党"
+    ]
+  },
+  {
+    "id": "shi_wang",
+    "type": "实词",
+    "char": "亡",
+    "pinyin": "wáng, wú",
+    "picture": "一个人慌慌张张逃出屋门，身影转眼消失在门外",
+    "benyi": "逃跑、逃亡",
+    "chain": [
+      {
+        "from": "慌忙逃出门外",
+        "to": "逃跑、逃亡",
+        "condition": "逃离出走（今亡亦死）"
+      },
+      {
+        "from": "慌忙逃出门外",
+        "to": "丢失、失去",
+        "condition": "东西跑得没了（亡羊补牢）"
+      },
+      {
+        "from": "慌忙逃出门外",
+        "to": "死亡、灭亡",
+        "condition": "生命或国家消亡"
+      },
+      {
+        "from": "慌忙逃出门外",
+        "to": "通'无'",
+        "condition": "没有（读wú，亡以应）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "逃跑、逃亡",
+        "sentence": "今亡亦死，举大计亦死，等死，死国可乎",
+        "source": "《陈涉世家》",
+        "translation": "现在逃跑也是死，发动起义也是死，同样是死，为国事而死好吗",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "死亡、灭亡",
+        "sentence": "是故燕虽小国而后亡",
+        "source": "《六国论》",
+        "translation": "因此燕国虽然是个小国，却最后灭亡",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "丢失、失去",
+        "sentence": "秦无亡矢遗镞之费",
+        "source": "《过秦论》",
+        "translation": "秦国没有损失一支箭、丢失一个箭头的耗费",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "通'无'",
+        "sentence": "河曲智叟亡以应",
+        "source": "《愚公移山》",
+        "translation": "河曲智叟没有话来回答",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "亡羊补牢",
+        "yixiang": "丢失、失去"
+      },
+      {
+        "idiom": "亡命之徒",
+        "yixiang": "逃跑、逃亡"
+      },
+      {
+        "idiom": "家破人亡",
+        "yixiang": "死亡、灭亡"
+      },
+      {
+        "idiom": "名存实亡",
+        "yixiang": "死亡、灭亡"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'亡'读wú通'无'（亡以应）；史传中的'亡'多指'逃跑'（今亡亦死），不是'死亡'；'燕虽小国而后亡'的'亡'是'灭亡'",
+        "gaokao": "'是故燕虽小国而后亡'出自必背篇目《六国论》，'亡'释'灭亡'常考"
+      }
+    ],
+    "mnemonic": "亡字出门慌忙逃，丢失灭亡通无消。",
+    "relatedChars": [
+      "逃",
+      "失",
+      "灭"
+    ]
+  },
+  {
+    "id": "shi_wang2",
+    "type": "实词",
+    "char": "王",
+    "pinyin": "wáng, wàng",
+    "picture": "最高统治者手持大斧端坐堂上，向众人发号施令",
+    "benyi": "帝王、君主（读wáng）",
+    "chain": [
+      {
+        "from": "手持大斧端坐堂上",
+        "to": "君王",
+        "condition": "最高统治者（读wáng）"
+      },
+      {
+        "from": "手持大斧端坐堂上",
+        "to": "称王、称霸",
+        "condition": "登上王位、统治天下（读wàng）"
+      },
+      {
+        "from": "手持大斧端坐堂上",
+        "to": "使……为王",
+        "condition": "封他为王（王之，使动用法）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "君王",
+        "sentence": "六王毕，四海一",
+        "source": "《阿房宫赋》",
+        "translation": "六国君主覆灭，天下统一",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "称王、称霸",
+        "sentence": "沛公欲王关中，使子婴为相",
+        "source": "《鸿门宴》",
+        "translation": "沛公想在关中称王，让子婴做国相",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "称王、称霸",
+        "sentence": "保民而王，莫之能御也",
+        "source": "《齐桓晋文之事》",
+        "translation": "安抚百姓进而称王天下，没有谁能抵挡他",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "使……为王",
+        "sentence": "先破秦入咸阳者王之",
+        "source": "《鸿门宴》",
+        "translation": "先攻破秦国进入咸阳的，就封他为王",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "称王称霸",
+        "yixiang": "称王、称霸"
+      },
+      {
+        "idiom": "王侯将相",
+        "yixiang": "君王"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'王'读wáng是名词'君王'；读wàng是动词'称王、行王道'（沛公欲王关中、保民而王）；'王之'是使动'封他为王'。读音即考点",
+        "gaokao": "'沛公欲王关中'出自必背篇目《鸿门宴》，'王'读wàng为翻译常考点"
+      }
+    ],
+    "mnemonic": "王字大斧镇朝堂，君王称王读音分。",
+    "relatedChars": [
+      "皇",
+      "帝",
+      "君"
+    ]
+  },
+  {
+    "id": "shi_wang3",
+    "type": "实词",
+    "char": "望",
+    "pinyin": "wàng",
+    "picture": "一个人踮起脚尖举目远眺，久久望向天边的山峦",
+    "benyi": "向远处看",
+    "chain": [
+      {
+        "from": "踮脚举目向远处看",
+        "to": "远看、眺望",
+        "condition": "望向远方"
+      },
+      {
+        "from": "踮脚举目向远处看",
+        "to": "盼望、期望",
+        "condition": "心飞向远方，盼着所望的事"
+      },
+      {
+        "from": "踮脚举目向远处看",
+        "to": "名望、声望",
+        "condition": "众人所仰望的"
+      },
+      {
+        "from": "踮脚举目向远处看",
+        "to": "农历每月十五",
+        "condition": "满月之日（望日）"
+      }
+    ],
+    "examples": [
+      {
+        "yixiang": "远看、眺望",
+        "sentence": "望晚日照城郭，汶水、徂徕如画",
+        "source": "《登泰山记》",
+        "translation": "远望夕阳映照着泰安城，汶水、徂徕山美得如同一幅画",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "远看、眺望",
+        "sentence": "吾令人望其气，皆为龙虎",
+        "source": "《鸿门宴》",
+        "translation": "我叫人观望他那里的云气，都呈现龙虎的形状",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "盼望、期望",
+        "sentence": "日夜望将军至，岂敢反乎",
+        "source": "《鸿门宴》",
+        "translation": "天天盼望将军到来，怎么敢反叛呢",
+        "isGaokao": true
+      },
+      {
+        "yixiang": "名望、声望",
+        "sentence": "先达德隆望尊，门人弟子填其室",
+        "source": "《送东阳马生序》",
+        "translation": "那位前辈德行高、声望重，门人弟子挤满了他的屋子",
+        "isGaokao": false
+      },
+      {
+        "yixiang": "农历每月十五",
+        "sentence": "予犹记周公之被逮，在丁卯三月之望",
+        "source": "《五人墓碑记》",
+        "translation": "我还记得周公被捕，是在丁卯年三月十五日",
+        "isGaokao": false
+      }
+    ],
+    "idioms": [
+      {
+        "idiom": "望梅止渴",
+        "yixiang": "盼望、期望"
+      },
+      {
+        "idiom": "德高望重",
+        "yixiang": "名望、声望"
+      },
+      {
+        "idiom": "望尘莫及",
+        "yixiang": "远看、眺望"
+      },
+      {
+        "idiom": "喜出望外",
+        "yixiang": "盼望、期望"
+      }
+    ],
+    "traps": [
+      {
+        "warning": "'三月之望'指农历每月十五，不是'看'；'望其气'是远观云气；'望'与'视''见'的区别在于向远处看",
+        "gaokao": "'日夜望将军至'出自必背篇目《鸿门宴》，'望'释'盼望'为翻译常考点"
+      }
+    ],
+    "mnemonic": "望字举目向远方，远看盼望名望扬。",
+    "relatedChars": [
+      "眺",
+      "盼",
+      "瞻"
+    ]
+  }
+]
