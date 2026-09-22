@@ -17,6 +17,12 @@ local.properties
 .idea/
 *.iml
 
+# ---- 签名密钥（严禁提交）----
+keystore.properties
+keystore/
+*.jks
+*.keystore
+
 # ---- 系统 / 编辑器 ----
 .DS_Store
 Thumbs.db
@@ -26,3 +32,8 @@ Thumbs.db
 
 # ---- 日志与临时文件 ----
 *.log
+
+# ---- 本地打包产物（APK 通过 GitHub Release 分发）----
+dist/
+r1.txt
+r1e.txt
