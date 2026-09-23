@@ -1,36 +1,41 @@
 package com.ziyuan.wenyan.ui.texts
 
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.gestures.detectVerticalDragGestures
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -42,6 +47,8 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -56,6 +63,7 @@ import com.ziyuan.wenyan.ui.theme.PixelFontFamily
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -87,7 +95,6 @@ class TextReadingViewModel @Inject constructor(
 private data class TapInfo(val word: String, val meaning: String, val note: String, val isSame: Boolean)
 
 // 3/4 屏底部定位阅读窗口：只高亮当前卡片的字，同义 / 异义双色，点击标记词看释义
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TextReadingSheet(
     textId: String,        // 篇目 id
@@ -100,23 +107,86 @@ fun TextReadingSheet(
     val text by viewModel.text.collectAsStateWithLifecycle()
     val colors = AppTheme.colors
 
-    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     var tab by remember { mutableIntStateOf(0) }
     var tapped by remember { mutableStateOf<TapInfo?>(null) }
+    // 原文 / 译文 / 注释 各自独立的滚动状态
     val scrollState = rememberScrollState()
+    val translationScroll = rememberScrollState()
+    val annotationScroll = rememberScrollState()
 
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = sheetState,
-        containerColor = if (colors.isDark) Color(0xFF222222) else colors.panel,
-        tonalElevation = 0.dp
+    // 自绘底部面板（不再使用底部弹窗自带的手势）：
+    // 正文区域的滑动只滚动内容，不会被误判成「拖拽关闭」；
+    // 关闭入口为顶部把手下拉、右上角 ✕、点击空白处与返回键。
+    val scope = rememberCoroutineScope()
+    var appeared by remember { mutableStateOf(false) }
+    LaunchedEffect(Unit) { appeared = true }
+    // 关闭前先播放滑出动画，动画结束后再真正移除窗口
+    val dismissWithAnimation: () -> Unit = {
+        scope.launch {
+            appeared = false
+            delay(220)
+            onDismiss()
+        }
+    }
+    Dialog(
+        onDismissRequest = dismissWithAnimation,
+        properties = DialogProperties(usePlatformDefaultWidth = false)
     ) {
-        Column(
-            Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.75f)
-                .navigationBarsPadding()
-        ) {
+        BoxWithConstraints(Modifier.fillMaxSize()) {
+            // 面板高度即滑入滑出的位移距离
+            val panelHeight = maxHeight * 0.78f
+            val panelOffset by animateDpAsState(
+                targetValue = if (appeared) 0.dp else panelHeight,
+                animationSpec = tween(durationMillis = 220),
+                label = "readingSheetSlide"
+            )
+            // 遮罩：点击空白处关闭
+            Box(
+                Modifier
+                    .fillMaxSize()
+                    .background(Color.Black.copy(alpha = if (colors.isDark) 0.55f else 0.35f))
+                    .clickable(
+                        interactionSource = remember { MutableInteractionSource() },
+                        indication = null
+                    ) { dismissWithAnimation() }
+            )
+            Column(
+                Modifier
+                    .align(Alignment.BottomCenter)
+                    .fillMaxWidth()
+                    .fillMaxHeight(0.78f)
+                    .offset(y = panelOffset)
+                    .background(
+                        color = if (colors.isDark) Color(0xFF222222) else colors.panel,
+                        shape = RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp)
+                    )
+            ) {
+                // 把手：下拉超过阈值即关闭
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 10.dp, bottom = 4.dp)
+                        .pointerInput(Unit) {
+                            var dragged = 0f
+                            detectVerticalDragGestures(
+                                onDragStart = { dragged = 0f },
+                                onDragCancel = { dragged = 0f },
+                                onDragEnd = {
+                                    if (dragged > 96.dp.toPx()) dismissWithAnimation()
+                                    dragged = 0f
+                                },
+                                onVerticalDrag = { _, amount -> dragged += amount }
+                            )
+                        },
+                    contentAlignment = Alignment.Center
+                ) {
+                    Box(
+                        Modifier
+                            .width(36.dp)
+                            .height(4.dp)
+                            .background(colors.panelBorder, RoundedCornerShape(2.dp))
+                    )
+                }
             // 头部：篇目信息 + 关闭按钮
             Row(
                 Modifier
@@ -152,7 +222,7 @@ fun TextReadingSheet(
                     color = colors.textSecondary,
                     fontSize = 20.sp,
                     modifier = Modifier
-                        .clickable { onDismiss() }
+                        .clickable { dismissWithAnimation() }
                         .padding(8.dp)
                 )
             }
@@ -222,6 +292,7 @@ fun TextReadingSheet(
                                 .weight(1f)
                                 .fillMaxWidth()
                                 .verticalScroll(scrollState)
+                                .padding(horizontal = 16.dp)
                                 .pointerInput(hits) {
                                     detectTapGestures { pos ->
                                         val layout = layoutResult ?: return@detectTapGestures
@@ -242,7 +313,6 @@ fun TextReadingSheet(
                                         }
                                     }
                                 }
-                                .padding(horizontal = 16.dp)
                         )
                     }
                     // 译文
@@ -253,7 +323,7 @@ fun TextReadingSheet(
                         modifier = Modifier
                             .weight(1f)
                             .fillMaxWidth()
-                            .verticalScroll(rememberScrollState())
+                            .verticalScroll(translationScroll)
                             .padding(horizontal = 16.dp)
                     )
                     // 注释
@@ -261,7 +331,7 @@ fun TextReadingSheet(
                         Modifier
                             .weight(1f)
                             .fillMaxWidth()
-                            .verticalScroll(rememberScrollState())
+                            .verticalScroll(annotationScroll)
                             .padding(horizontal = 16.dp)
                     ) {
                         if (piece.annotations.isEmpty()) {
@@ -293,6 +363,7 @@ fun TextReadingSheet(
                 }
             }
             Spacer(Modifier.height(12.dp))
+        }
         }
     }
 

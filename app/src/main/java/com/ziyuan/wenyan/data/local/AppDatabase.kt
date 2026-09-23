@@ -24,7 +24,7 @@ import com.ziyuan.wenyan.data.local.entity.WrongAnswerEntity
         WrongAnswerEntity::class,
         DailyStatEntity::class
     ],
-    version = 3,
+    version = 4,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {

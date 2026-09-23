@@ -107,6 +107,7 @@ data class CompareCard(
     val id: String,
     val type: String = "对比",
     val title: String,
+    val pinyin: String = "",   // 标题首字拼音，用于卡片库字母索引
     val charLeft: String = "",
     val charRight: String = "",
     val coreDifference: String = "",
